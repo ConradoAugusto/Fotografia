@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./style.module.scss";
-import FadeIn from "react-fade-in";
 import { Header } from "../../componets/Header";
 
 export const Videomaker = () => {
@@ -10,7 +9,7 @@ export const Videomaker = () => {
         <h2 className="headerName">Conrado Augusto</h2>
         <Header />
       </div>
-      <FadeIn>
+
         <main className={styles.containerMain}>
           <section className={styles.containerProjects}>
             <iframe
@@ -48,7 +47,6 @@ export const Videomaker = () => {
             ></iframe>
           </section>
         </main>
-      </FadeIn>
     </>
   );
 };

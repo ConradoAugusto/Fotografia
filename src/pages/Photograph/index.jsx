@@ -7,7 +7,7 @@ import autoral from "../../assets/autoral.jpg";
 import cantos from "../../assets/cantos.png";
 import ensaios from "../../assets/ensaios.png";
 import { useNavigate } from "react-router-dom";
-import FadeIn from "react-fade-in";
+
 
 export const Photograph = () => {
   const navigate = useNavigate();
@@ -17,7 +17,6 @@ export const Photograph = () => {
           <h2 className="headerName">Conrado Augusto</h2>
           <Header />
         </div>
-      <FadeIn delay={.5}>
         <main className={styles.mainPhotograph}>
           <section className={styles.containerProjects}>
             <ul className={styles.containerList}>
@@ -77,7 +76,6 @@ export const Photograph = () => {
           </section>
         </main>
         <Footer />
-      </FadeIn>
     </>
   );
 };

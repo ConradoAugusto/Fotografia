@@ -3,14 +3,13 @@ import styles from "./style.module.scss";
 import { FaLinkedinIn, FaFacebookF, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
-import FadeIn from "react-fade-in/lib/FadeIn";
+
 
 export const HomePage = () => {
   const navigate = useNavigate()
   return (
     <div className={styles.container}>
       <div className={styles.bcg}>
-      <FadeIn>
         <nav>
           <ul>
             <li onClick={() => navigate("/photograph")} className="title four semiBold">Fotografia</li>
@@ -54,7 +53,6 @@ export const HomePage = () => {
             </ul>
           </div>
         </section>
-    </FadeIn>
       </div>
     </div>
   );
