@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+    
+    .containerSocial {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 50px;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            &:hover .nameSocial {
+                opacity: 1;
+                transition: .5s;
+            }
+
+            .nameSocial {
+                display: flex;
+                opacity: 0;
+                transition: .5s;
+                font-size: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+.containerHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPhotograph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerProjects {
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 62vh;
+
+    animation-name: right;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: inherit;
+
+    h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+
+    }
+
+    .containerList {
+      margin: 20px auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 40px;
+      padding: 20px;
+      align-items: center;
+      justify-content: center;
+
+
+      .containerBanner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 300px;
+        min-width: 250px;
+        max-height: 250px;
+        border-radius: 45px;
+
+
+        &:hover .banner {
+          transition: 0.5s;
+          box-shadow: 2px 2px var(--Color-Secundary),
+            3px 3px var(--Color-Secundary), 4px 4px var(--Color-Secundary);
+          -webkit-transform: translateX(-10px);
+          transform: translatey(-5px);
+        }
+
+        &:hover .titleProject {
+          opacity: 100;
+          transition: 0.5s;
+          margin-bottom: -150px;
+        }
+
+        .titleProject {
+          display: flex;
+          opacity:0;
+          color: var(--Color-Secundary);
+          font-size: clamp(10px, 5vw, 20px);
+          position: absolute;
+          margin-top: 163px;
+          z-index: 1;
+          transition: 0.5s;
+            text-align: center;
+        }
+
+        .banner {
+          display: flex;
+          align-items: center;
+          width: 300px;
+          height: 250px;
+          object-fit: cover;
+          border-radius: 8px;
+          transition: 0.5s;
+        }
+      }
+    }
+  }

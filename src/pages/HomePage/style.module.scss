@@ -1,0 +1,60 @@
+.container {
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/bcg.jpg");
+  height: 100vh;
+
+ 
+  nav {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    position: relative;
+    margin-bottom: -175px;
+
+
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      gap: 10px;
+      margin-left: 50px;
+      margin-top: 45vh;
+
+      li {
+        display: flex;
+        width: 140px;
+        height: 30px;
+        padding: 10px;
+        border-radius: 255px;
+        align-items: center;
+        justify-content: center;
+        color: var(--Color-Secundary);
+        background-color: var(--Color-Primary);
+        cursor: pointer;
+      }
+    }
+  }
+
+  section {
+   
+
+    .contentAbout {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    ul {
+      display: flex;
+      margin-top: 70px;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

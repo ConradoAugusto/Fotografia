@@ -1,0 +1,45 @@
+.title {
+    
+    &.one {
+        font-size:clamp(20px, 4vw, 50px);
+    }
+
+    &.two {
+        font-size: clamp(15px,  2vw, 30px);
+    }
+
+    &.three {
+        font-size: clamp(10px,  2vw, 20px);
+    }
+
+    &.four {
+        font-size: clamp(7px,  2vw, 14px);
+    }
+
+    &.colorWhite {
+        color: white;
+        
+    }
+
+    &.disable {
+        color: rgba(255, 255, 255, 0.367);
+        transition: .5s;
+        &:hover {
+            transition: .5s;
+            color: var(--Color-Secundary);
+            transform: scale(1.1);
+        }
+    }
+
+    &.bold {
+        font-weight: 900;
+    }
+
+    &.semiBold {
+        font-weight: 600;
+    }
+
+    &.regular {
+        font-weight: 300;
+    }
+}

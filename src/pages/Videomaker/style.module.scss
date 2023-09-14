@@ -1,0 +1,19 @@
+.containerMain {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+
+  
+  .containerProjects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    iframe {
+      border: 2px solid var(--Color-Secundary);
+      border-radius: 8px;
+    }
+  }
+  
+}
