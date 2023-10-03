@@ -1,134 +1,169 @@
+import img1 from "../../assets/imgSocial/001.png"
+import img2 from "../../assets/imgSocial/002.png"
+import img3 from "../../assets/imgSocial/003.png"
+import img4 from "../../assets/imgSocial/004.png"
+import img5 from "../../assets/imgSocial/005.png"
+import img6 from "../../assets/imgSocial/006.png"
+import img7 from "../../assets/imgSocial/007.png"
+import img8 from "../../assets/imgSocial/008.png"
+import img9 from "../../assets/imgSocial/009.png"
+import img10 from "../../assets/imgSocial/010.png"
+import img11 from "../../assets/imgSocial/011.png"
+import img12 from "../../assets/imgSocial/012.png"
+import img13 from "../../assets/imgSocial/013.png"
+import img14 from "../../assets/imgSocial/014.png"
+import img15 from "../../assets/imgSocial/015.png"
+import img16 from "../../assets/imgSocial/016.png"
+import img17 from "../../assets/imgSocial/017.png"
+import img18 from "../../assets/imgSocial/018.png"
+import img19 from "../../assets/imgSocial/019.png"
+import img20 from "../../assets/imgSocial/020.png"
+import img21 from "../../assets/imgSocial/021.png"
+import img22 from "../../assets/imgSocial/022.png"
+import img23 from "../../assets/imgSocial/023.png"
+import img24 from "../../assets/imgSocial/024.png"
+import img25 from "../../assets/imgSocial/025.png"
+import img26 from "../../assets/imgSocial/026.png"
+import img27 from "../../assets/imgSocial/027.png"
+import img28 from "../../assets/imgSocial/028.png"
+import img29 from "../../assets/imgSocial/029.png"
+import img30 from "../../assets/imgSocial/030.png"
+import img31 from "../../assets/imgSocial/031.png"
+import img32 from "../../assets/imgSocial/032.png"
+import img33 from "../../assets/imgSocial/033.png"
+
+
 export const photos = [
   {
-    id: "001",
-    src: "src/assets/imgSocial/001.png",
+    id: 1,
+    src: img1,
   },
   {
-    id: "002",
-    src: "src/assets/imgSocial/002.png",
+    id: 2,
+    src: img2,
   },
   {
-    id: "003",
-    src: "src/assets/imgSocial/003.png",
+    id: 3,
+    src: img3,
   },
   {
-    id: "004",
-    src: "src/assets/imgSocial/004.png",
+    id: 4,
+    src: img4,
   },
   {
-    id: "005",
-    src: "src/assets/imgSocial/005.png",
+    id: 5,
+    src: img5,
   },
   {
-    id: "006",
-    src: "src/assets/imgSocial/006.png",
+    id: 6,
+    src: img6,
   },
   {
-    id: "007",
-    src: "src/assets/imgSocial/007.png",
+    id: 7,
+    src: img7,
   },
   {
-    id: "008",
-    src: "src/assets/imgSocial/008.png",
+    id: 8,
+    src: img8,
   },
   {
-    id: "009",
-    src: "src/assets/imgSocial/009.png",
+    id: 9,
+    src: img9,
   },
   {
-    id: "010",
-    src: "src/assets/imgSocial/010.png",
+    id: 10,
+    src: img10,
   },
   {
-    id: "011",
-    src: "src/assets/imgSocial/011.png",
+    id: 11,
+    src: img11,
   },
   {
-    id: "012",
-    src: "src/assets/imgSocial/012.png",
+    id: 12,
+    src: img12,
   },
   {
-    id: "013",
-    src: "src/assets/imgSocial/013.png",
+    id: 13,
+    src: img13,
   },
   {
-    id: "014",
-    src: "src/assets/imgSocial/014.png",
+    id: 14,
+    src: img14,
   },
   {
-    id: "015",
-    src: "src/assets/imgSocial/015.png",
+    id: 15,
+    src: img15,
   },
   {
-    id: "016",
-    src: "src/assets/imgSocial/016.png",
+    id: 16,
+    src: img16,
   },
   {
-    id: "017",
-    src: "src/assets/imgSocial/017.png",
+    id: 17,
+    src: img17,
   },
   {
-    id: "018",
-    src: "src/assets/imgSocial/018.png",
+    id: 18,
+    src: img18,
   },
   {
-    id: "019",
-    src: "src/assets/imgSocial/019.png",
+    id: 19,
+    src: img19,
   },
   {
-    id: "020",
-    src: "src/assets/imgSocial/020.png",
+    id: 20,
+    src: img20,
   },
   {
-    id: "021",
-    src: "src/assets/imgSocial/021.png",
+    id: 21,
+    src: img21,
   },
   {
-    id: "022",
-    src: "src/assets/imgSocial/022.png",
+    id: 22,
+    src: img22,
   },
   {
-    id: "023",
-    src: "src/assets/imgSocial/023.png",
+    id: 23,
+    src: img23,
   },
   {
-    id: "024",
-    src: "src/assets/imgSocial/024.png",
+    id: 24,
+    src: img24,
   },
   {
-    id: "025",
-    src: "src/assets/imgSocial/025.png",
+    id: 25,
+    src: img25,
   },
   {
-    id: "026",
-    src: "src/assets/imgSocial/026.png",
+    id: 26,
+    src: img26,
   },
   {
-    id: "027",
-    src: "src/assets/imgSocial/027.png",
+    id: 27,
+    src: img27,
   },
   {
-    id: "028",
-    src: "src/assets/imgSocial/028.png",
+    id: 28,
+    src: img28,
   },
   {
-    id: "029",
-    src: "src/assets/imgSocial/029.png",
+    id: 29,
+    src: img29,
   },
   {
-    id: "030",
-    src: "src/assets/imgSocial/030.png",
+    id: 30,
+    src: img30,
   },
   {
-    id: "031",
-    src: "src/assets/imgSocial/031.png",
+    id: 31,
+    src: img31,
   },
   {
-    id: "032",
-    src: "src/assets/imgSocial/032.png",
+    id: 32,
+    src: img32,
   },
   {
-    id: "033",
-    src: "src/assets/imgSocial/033.png",
+    id: 33,
+    src: img33,
   },
 ];

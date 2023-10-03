@@ -12,7 +12,7 @@ export const RoutesMain = () => {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/Photograph" element={<Photograph />} />
+      <Route path="/photograph" element={<Photograph />} />
       <Route path="/food" element={<GalleryPhoto />} />
       <Route path="/autoral" element={<GalleryPhoto />} />
       <Route path="/cantos" element={<GalleryPhoto />} />

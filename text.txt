@@ -1,0 +1,1 @@
+foto anterior e proxima = Limitar se for  a primeira e a ultima

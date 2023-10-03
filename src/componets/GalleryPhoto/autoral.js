@@ -1,130 +1,163 @@
+import img1 from "../../assets/imgAutoral/001.jpg"
+import img2 from "../../assets/imgAutoral/002.jpg"
+import img3 from "../../assets/imgAutoral/003.jpg"
+import img4 from "../../assets/imgAutoral/004.jpg"
+import img5 from "../../assets/imgAutoral/005.jpg"
+import img6 from "../../assets/imgAutoral/006.jpg"
+import img7 from "../../assets/imgAutoral/007.jpg"
+import img8 from "../../assets/imgAutoral/008.jpg"
+import img9 from "../../assets/imgAutoral/009.jpg"
+import img10 from "../../assets/imgAutoral/010.jpg"
+import img11 from "../../assets/imgAutoral/011.jpg"
+import img12 from "../../assets/imgAutoral/012.jpg"
+import img13 from "../../assets/imgAutoral/013.jpg"
+import img14 from "../../assets/imgAutoral/014.jpg"
+import img15 from "../../assets/imgAutoral/015.jpg"
+import img16 from "../../assets/imgAutoral/016.jpg"
+import img17 from "../../assets/imgAutoral/017.jpg"
+import img18 from "../../assets/imgAutoral/018.jpg"
+import img19 from "../../assets/imgAutoral/019.jpg"
+import img20 from "../../assets/imgAutoral/020.jpg"
+import img21 from "../../assets/imgAutoral/021.jpg"
+import img22 from "../../assets/imgAutoral/022.jpg"
+import img23 from "../../assets/imgAutoral/023.jpg"
+import img24 from "../../assets/imgAutoral/024.jpg"
+import img25 from "../../assets/imgAutoral/025.jpg"
+import img26 from "../../assets/imgAutoral/026.jpg"
+import img27 from "../../assets/imgAutoral/027.jpg"
+import img28 from "../../assets/imgAutoral/028.jpg"
+import img29 from "../../assets/imgAutoral/029.jpg"
+import img30 from "../../assets/imgAutoral/030.png"
+import img31 from "../../assets/imgAutoral/031.png"
+import img32 from "../../assets/imgAutoral/032.png"
+
 export const autoral = [
   {
-    id: "001",
-    src: "src/assets/imgAutoral/001.jpg",
+    id: 1,
+    src: img1,
   },
   {
-    id: "002",
-    src: "src/assets/imgAutoral/002.jpg",
+    id: 2,
+    src: img2,
   },
   {
-    id: "003",
-    src: "src/assets/imgAutoral/003.jpg",
+    id: 3,
+    src: img3,
   },
   {
-    id: "004",
-    src: "src/assets/imgAutoral/004.jpg",
+    id: 4,
+    src: img4,
   },
   {
-    id: "005",
-    src: "src/assets/imgAutoral/005.jpg",
+    id: 5,
+    src: img5,
   },
   {
-    id: "006",
-    src: "src/assets/imgAutoral/006.jpg",
+    id: 6,
+    src: img6,
   },
   {
-    id: "007",
-    src: "src/assets/imgAutoral/007.jpg",
+    id: 7,
+    src: img7,
   },
   {
-    id: "008",
-    src: "src/assets/imgAutoral/008.jpg",
+    id: 8,
+    src: img8,
   },
   {
-    id: "009",
-    src: "src/assets/imgAutoral/009.jpg",
+    id: 9,
+    src: img9,
   },
   {
-    id: "010",
-    src: "src/assets/imgAutoral/010.jpg",
+    id: 10,
+    src: img10,
   },
   {
-    id: "011",
-    src: "src/assets/imgAutoral/011.jpg",
+    id: 11,
+    src: img11,
   },
   {
-    id: "012",
-    src: "src/assets/imgAutoral/012.jpg",
+    id: 12,
+    src: img12,
   },
   {
-    id: "013",
-    src: "src/assets/imgAutoral/013.jpg",
+    id: 13,
+    src: img13,
   },
   {
-    id: "014",
-    src: "src/assets/imgAutoral/014.jpg",
+    id: 14,
+    src: img14,
   },
   {
-    id: "015",
-    src: "src/assets/imgAutoral/015.jpg",
+    id: 15,
+    src: img15,
   },
   {
-    id: "016",
-    src: "src/assets/imgAutoral/016.jpg",
+    id: 16,
+    src: img16,
   },
   {
-    id: "017",
-    src: "src/assets/imgAutoral/017.jpg",
+    id: 17,
+    src: img17,
   },
   {
-    id: "018",
-    src: "src/assets/imgAutoral/018.jpg",
+    id: 18,
+    src: img18,
   },
   {
-    id: "019",
-    src: "src/assets/imgAutoral/019.jpg",
+    id: 19,
+    src: img19,
   },
   {
-    id: "020",
-    src: "src/assets/imgAutoral/020.jpg",
+    id: 20,
+    src: img20,
   },
   {
-    id: "021",
-    src: "src/assets/imgAutoral/021.jpg",
+    id: 21,
+    src: img21,
   },
   {
-    id: "022",
-    src: "src/assets/imgAutoral/022.jpg",
+    id: 22,
+    src: img22,
   },
   {
-    id: "023",
-    src: "src/assets/imgAutoral/023.jpg",
+    id: 23,
+    src: img23,
   },
   {
-    id: "024",
-    src: "src/assets/imgAutoral/024.jpg",
+    id: 24,
+    src: img24,
   },
   {
-    id: "025",
-    src: "src/assets/imgAutoral/025.jpg",
+    id: 25,
+    src: img25,
   },
   {
-    id: "026",
-    src: "src/assets/imgAutoral/026.jpg",
+    id: 26,
+    src: img26,
   },
   {
-    id: "027",
-    src: "src/assets/imgAutoral/027.jpg",
+    id: 27,
+    src: img27,
   },
   {
-    id: "028",
-    src: "src/assets/imgAutoral/028.jpg",
+    id: 28,
+    src: img28,
   },
   {
-    id: "029",
-    src: "src/assets/imgAutoral/029.jpg",
+    id: 29,
+    src: img29,
   },
   {
-    id: "030",
-    src: "src/assets/imgAutoral/030.png",
+    id: 30,
+    src: img30,
   },
   {
-    id: "031",
-    src: "src/assets/imgAutoral/031.png",
+    id: 31,
+    src: img31,
   },
   {
-    id: "032",
-    src: "src/assets/imgAutoral/032.png",
+    id: 32,
+    src: img32,
   },
 ];

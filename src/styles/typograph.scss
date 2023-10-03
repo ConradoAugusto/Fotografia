@@ -16,6 +16,29 @@
         font-size: clamp(7px,  2vw, 14px);
     }
 
+    &.fourBurguer {
+        font-size: clamp(13px, 4vw, 20px);
+    }
+
+    &.description {
+        font-size: clamp(5px,  3vw, 12px);
+
+    }
+    &.hastag {
+        color: rgb(95, 151, 255);
+    }
+
+    &.insta {
+        color: rgb(247, 154, 239);
+    }
+
+    &.size {
+        width: 500px;
+        padding: 20px;
+    }
+
+   
+
     &.colorWhite {
         color: white;
         
@@ -43,3 +66,4 @@
         font-weight: 300;
     }
 }
+

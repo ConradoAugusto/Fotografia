@@ -4,9 +4,8 @@ import { Header } from "../../componets/Header";
 import { GalleryPhotoCard } from "./GalleryPhotoCard";
 
 
-
-
 export const GalleryPhoto = () => {
+
   return (
     <>
 

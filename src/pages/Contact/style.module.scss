@@ -1,33 +1,102 @@
 .main {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+  animation: opacity .5s ease-in-out;
+
+  .containerSocial {
     display: flex;
+    gap: 20px;
     justify-content: center;
-    height: 50vh;
-    align-items: center;
-    
-    .containerSocial {
-        display: flex;
-        gap: 20px;
-        justify-content: center;
-        margin-top: 50px;
+    margin-top: 50px;
 
-        li {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-
-            &:hover .nameSocial {
-                opacity: 1;
-                transition: .5s;
-            }
-
-            .nameSocial {
-                display: flex;
-                opacity: 0;
-                transition: .5s;
-                font-size: 20px;
-            }
-        }
+    @media (min-width: 320px) and (max-width: 688px) {
+      flex-direction: column;
+      margin-top: 306px;
     }
+  
+
+    .linked {
+      transition: 1s;
+      fill: var(--Color-Secundary);
+      &:hover {
+        transition: 1s;
+        fill: #0077b5;
+      }
+    }
+
+    .face {
+      transition: 1s;
+      fill: var(--Color-Secundary);
+      &:hover {
+        transition: 1s;
+        fill: #4267b2;
+      }
+    }
+
+    .insta {
+      transition: 1s;
+      fill: var(--Color-Secundary);
+
+      &:hover {
+        transition: 1s;
+        fill: #E1306C;
+      }
+    }
+
+    .whats {
+        transition: 1s;
+        fill: var(--Color-Secundary);
+  
+        &:hover {
+          transition: 1s;
+          fill: #25D366;
+        }
+      }
+
+      .mail {
+        transition: 1s;
+        fill: var(--Color-Secundary);
+  
+        &:hover {
+          transition: 1s;
+          fill:aqua;
+        }
+      }
+
+    li {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &:hover .nameSocial {
+        opacity: 1;
+        transition: 1s;
+      }
+
+      .nameSocial {
+        display: flex;
+        opacity: 0;
+        transition: 0.5s;
+        font-size: 20px;
+
+        
+    @media (min-width: 320px) and (max-width: 688px) {
+      opacity: 1;
+    }
+      }
+    }
+  }
+}
+
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

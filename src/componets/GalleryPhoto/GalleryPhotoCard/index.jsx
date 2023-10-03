@@ -10,28 +10,27 @@ export const GalleryPhotoCard = () => {
 
   const [array, setArray] = useState([]);
 
-
-
   useEffect(() => {
-    if(location === "/food") {
-        setArray(food)
+    if (location === "/food") {
+      setArray(food);
     }
-    if(location === "/autoral") {
-        setArray(autoral)
+    if (location === "/autoral") {
+      setArray(autoral);
     }
-    if(location === "/cantos") {
-        setArray(cantos)
+    if (location === "/cantos") {
+      setArray(cantos);
     }
-    if(location === "/ensaios") {
-        setArray(ensaios)
+    if (location === "/ensaios") {
+      setArray(ensaios);
     }
-    [array]});
-
+    [array];
+  });
+  
   return (
-    <ul className="galleryPhoto" key={array.length}>
-      {array?.map(({ src, id }) => (
-        <GalleryPhotoList id={id} src={src} />
-      ))}
-    </ul>
+      <ul className="galleryPhoto" key={"uxy987xw987xt98sx987x"}>
+        {array?.map(({ src, id }) => (
+          <GalleryPhotoList id={id} src={src} array={array} />
+        ))}
+      </ul>
   );
 };

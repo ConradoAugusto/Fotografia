@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./style.module.scss";
 import { Header } from "../../componets/Header";
-import { Footer } from "../../componets/Footer";
 import food from "../../assets/food.jpg";
 import autoral from "../../assets/autoral.jpg";
 import cantos from "../../assets/cantos.png";
@@ -21,7 +20,7 @@ export const Photograph = () => {
           <section className={styles.containerProjects}>
             <ul className={styles.containerList}>
               <li className={styles.listProject}>
-                <a href="#">
+                <a href="food">
                   <div
                     onClick={() => navigate("/food")}
                     className={styles.containerBanner}
@@ -33,7 +32,7 @@ export const Photograph = () => {
               </li>
 
               <li className={styles.listProject}>
-                <a href="#">
+                <a href="autoral">
                   <div
                     onClick={() => navigate("/autoral")}
                     className={styles.containerBanner}
@@ -45,7 +44,7 @@ export const Photograph = () => {
               </li>
 
               <li className={styles.listProject}>
-                <a href="#">
+                <a href="cantos">
                   <div
                     onClick={() => navigate("/cantos")}
                     className={styles.containerBanner}
@@ -60,7 +59,7 @@ export const Photograph = () => {
               </li>
 
               <li className={styles.listProject}>
-                <a href="#">
+                <a href="ensaios">
                   <div
                     onClick={() => navigate("/ensaios")}
                     className={styles.containerBanner}
@@ -75,7 +74,6 @@ export const Photograph = () => {
             </ul>
           </section>
         </main>
-        <Footer />
     </>
   );
 };

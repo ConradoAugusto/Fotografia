@@ -1,7 +1,22 @@
 .mainPhoto {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
 
-  margin-bottom: 100px
+  animation: scale .5s ease-in-out;
+
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }

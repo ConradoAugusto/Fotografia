@@ -3,17 +3,69 @@
   justify-content: center;
   margin-top: 50px;
   gap: 20px;
+  animation: opacity 1s ease-in-out;
+  margin-bottom: 100px;
 
-  
   .containerProjects {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
 
-    iframe {
-      border: 2px solid var(--Color-Secundary);
-      border-radius: 8px;
+    @media (min-width: 320px) and (max-width: 1080px) {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .youtube {
+      display: flex;
+      gap: 30px;
+
+      @media (min-width: 320px) and (max-width: 1080px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      p {
+        @media (min-width: 320px) and (max-width: 668px) {
+          text-align: center;
+          max-width: 283px;
+          width: 100%;
+        }
+
+        @media (min-width: 668px) {
+          text-align: center;
+          max-width: 503px;
+          width: 100%;
+        }
+      }
+
+      .cap {
+        border: 10px solid transparent;
+        animation: opacity 1s ease-in-out;
+        border: 10px solid var(--Color-Secundary);
+        transition: 0.5s;
+
+        @media (min-width: 320px) and (max-width: 768px) {
+          border: 3px solid var(--Color-Secundary);
+          max-width: 283px;
+          max-height: 169px;
+          width: 100%;
+          height: 100%;
+        }
+      }
     }
   }
-  
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

@@ -1,7 +1,7 @@
 
 export const ErrorPage = () => {
   return (
-  <div>
+  <div className="fadein">
     <h1>ErrorPage</h1>
   </div>
   );

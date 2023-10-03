@@ -4,8 +4,8 @@ import {photos}  from "../index";
 
 export const GallerySocailCard = () => {
     return( 
-        <ul className="gallery" key={photos.length}>
-       {photos?.map(({src, id}) => <GallerySocailList id={id} src={src}
+        <ul className="galleryPhoto" key={"iudtysod87f0897s60d879f60djhco"}>
+       {photos?.map(({src, id}) => <GallerySocailList id={id} src={src} photos={photos}
        />)}
     </ul>
     )

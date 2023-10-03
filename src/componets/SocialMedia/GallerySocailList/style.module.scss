@@ -1,0 +1,115 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 68px 22px 32px 22px;
+
+  position: fixed;
+  inset: 0;
+  background: var(--Color-Primary);
+
+  animation: modalOpen 1s;
+  z-index: 9997;
+  animation: opacity 0.5s ease-in-out;
+  transition: 1s;
+
+  .modalContents {
+    max-height: 80vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.modalImg {
+  max-height: 80vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  z-index: 9998;
+  position: absolute;
+  background-color: var(--Color-Primary);
+
+  @media (min-width:  320px) and (max-width: 993px) {
+    width: 100%;
+    padding: 15px;
+    object-fit: contain;
+  }
+}
+
+.close {
+  display: flex;
+  top: 10px;
+  left: 10px;
+  position: fixed;
+  z-index: 9999;
+  cursor: pointer;
+
+ 
+}
+
+.previous {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 241px;
+  width: 66px;
+  background: transparent;
+  border: none;
+  left: 100px;
+  position: fixed;
+  z-index: 9999;
+  cursor: pointer;
+
+  @media (min-width: 320px) and (max-width: 600px) {
+    top: 263px;
+    height: 576px;
+    width: 122px;
+    margin-left: -72px;
+  }
+}
+
+.next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 241px;
+  width: 66px;
+  background: transparent;
+  border: none;
+  right: 100px;
+  rotate: -180deg;
+  position: fixed;
+  z-index: 9999;
+  cursor: pointer;
+
+  @media (min-width: 320px) and (max-width: 600px) {
+    top: 265px;
+    height: 576px;
+    width: 122px;
+    margin-right: -72px;
+  }
+}
+
+@keyframes scaleOut {
+  to {
+    transform: scale(0.85);
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
