@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./style.module.scss";
 import { Header } from "../../componets/Header";
+import tubinho from "../../assets/tubinho.jpg";
+import sesc from "../../assets/sesc.jpg";
+import sescTeatro from "../../assets/sescTeatro.jpg";
 import food from "../../assets/food.jpg";
 import autoral from "../../assets/autoral.jpg";
 import cantos from "../../assets/cantos.png";
@@ -19,6 +22,51 @@ export const Photograph = () => {
         <main className={styles.mainPhotograph}>
           <section className={styles.containerProjects}>
             <ul className={styles.containerList}>
+
+            <li className={styles.listProject}>
+                <a href="sesc">
+                  <div
+                    onClick={() => navigate("/sesc")}
+                    className={styles.containerBanner}
+                  >
+                    <h1 className={styles.titleProject}>
+                      Sesc - Sorrisos
+                    </h1>
+                    <img className={styles.banner} src={sesc} alt="" />
+                  </div>
+                </a>
+              </li>
+
+
+            <li className={styles.listProject}>
+                <a href="tubinho">
+                  <div
+                    onClick={() => navigate("/tubinho")}
+                    className={styles.containerBanner}
+                  >
+                    <h1 className={styles.titleProject}>
+                      Condomínio do <br />
+                      Tubinho
+                    </h1>
+                    <img className={styles.banner} src={tubinho} alt="" />
+                  </div>
+                </a>
+              </li>
+
+              <li className={styles.listProject}>
+                <a href="sescTeatro">
+                  <div
+                    onClick={() => navigate("/sescTeatro")}
+                    className={styles.containerBanner}
+                  >
+                    <h1 className={styles.titleProject}>
+                    Sesc - Teatro
+                    </h1>
+                    <img className={styles.banner} src={sescTeatro} alt="" />
+                  </div>
+                </a>
+              </li>
+
               <li className={styles.listProject}>
                 <a href="food">
                   <div

@@ -13,6 +13,9 @@ export const RoutesMain = () => {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/photograph" element={<Photograph />} />
+      <Route path="/tubinho" element={<GalleryPhoto />} />
+      <Route path="/sescTeatro" element={<GalleryPhoto />} />
+      <Route path="/sesc" element={<GalleryPhoto />} />
       <Route path="/food" element={<GalleryPhoto />} />
       <Route path="/autoral" element={<GalleryPhoto />} />
       <Route path="/cantos" element={<GalleryPhoto />} />

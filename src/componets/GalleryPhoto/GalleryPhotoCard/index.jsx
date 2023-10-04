@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
 import { GalleryPhotoList } from "../GalleryPhotoList";
 import { autoral } from "../autoral.js";
+import { tubinho } from "../tubinho.js";
 import { food } from "../food.js";
 import { cantos } from "../cantos.js";
 import { ensaios } from "../ensaios.js";
+import { sesc } from "../sesc";
+import { sescTeatro } from "../sescTeatro";
 
 export const GalleryPhotoCard = () => {
   const location = window.location.pathname;
@@ -11,6 +14,18 @@ export const GalleryPhotoCard = () => {
   const [array, setArray] = useState([]);
 
   useEffect(() => {
+
+    if (location === "/sesc") {
+      setArray(sesc);
+    }
+
+    if (location === "/sescTeatro") {
+      setArray(sescTeatro);
+    }
+
+    if (location === "/tubinho") {
+      setArray(tubinho);
+    }
     if (location === "/food") {
       setArray(food);
     }
