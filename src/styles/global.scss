@@ -31,10 +31,11 @@
       height: 100%;
       object-fit: cover;
       filter: grayscale(1);
-      transition: 0.5s;
+      transition: .7s;
 
       &:hover {
-        transition: 0.5s;
+        transition-delay: 0.3s;
+        transition-duration: .8s;
         filter: grayscale(0);
         transform: scale(2);
         z-index: 999;
@@ -43,7 +44,6 @@
     }
   }
 }
-
 
 body {
   font-family: "Inter", sans-serif;
@@ -93,12 +93,11 @@ html {
   position: absolute;
 }
 
-
 .line {
   display: flex;
   width: 400px;
   height: 3px;
-  filter: blur(10px) opacity(.5);
+  filter: blur(10px) opacity(0.5);
   background-color: var(--Color-Opacity);
   position: relative;
   right: 100px;
