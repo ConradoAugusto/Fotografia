@@ -10,30 +10,30 @@ export const Header = () => {
     <header>
       <nav>
         <ul className="menuDefault">
-          <li onClick={() => navigate("/")} className="title three disable">
+          <li onClick={() => navigate("/")} className="title two disable">
             Início
           </li>
           <li
             onClick={() => navigate("/photograph")}
-            className="title three disable"
+            className="title two disable"
           >
             Fotografia
           </li>
           <li
             onClick={() => navigate("/social")}
-            className="title three disable"
+            className="title two disable"
           >
             Social Media
           </li>
           <li
             onClick={() => navigate("/videomaker")}
-            className="title three disable"
+            className="title two disable"
           >
             Videomaker
           </li>
           <li
             onClick={() => navigate("/contact")}
-            className="title three disable"
+            className="title two disable"
           >
             Contato
           </li>
