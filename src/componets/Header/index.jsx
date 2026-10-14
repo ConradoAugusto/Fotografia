@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 
 export const Header = () => {
@@ -24,12 +23,6 @@ export const Header = () => {
             className="title two disable"
           >
             Social Media
-          </li>
-          <li
-            onClick={() => navigate("/videomaker")}
-            className="title two disable"
-          >
-            Videomaker
           </li>
           <li
             onClick={() => navigate("/contact")}

@@ -1,6 +1,5 @@
-import React from "react";
 import styles from "./style.module.scss";
-import { FaLinkedinIn, FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { AiFillInstagram } from "react-icons/ai";
@@ -47,7 +46,7 @@ export const Contact = () => {
           </li>
           <li>
             <a
-              href="https://wa.me/5519933006134"
+              href="https://wa.me/5519998512498"
               target="_blank"
               rel="noopener noreferrer"
             >

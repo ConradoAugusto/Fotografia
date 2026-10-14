@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./style.module.scss";
 import {
   FaLinkedinIn,
@@ -38,12 +37,6 @@ export const HomePage = () => {
             Social Media
           </li>
           <li
-            onClick={() => navigate("/videomaker")}
-            className="title fourBurguer semiBold"
-          >
-            Videomaker
-          </li>
-          <li
             onClick={() => navigate("/contact")}
             className="title fourBurguer semiBold"
           >
@@ -67,12 +60,6 @@ export const HomePage = () => {
           className="title fourBurguer semiBold"
         >
           Social Media
-        </li>
-        <li
-          onClick={() => navigate("/videomaker")}
-          className="title fourBurguer semiBold"
-        >
-          Videomaker
         </li>
         <li
           onClick={() => navigate("/contact")}
@@ -100,7 +87,7 @@ export const HomePage = () => {
         <section>
           <div className={styles.contentAbout}>
             <h1 className="title one bold">Conrado Augusto</h1>
-            <span className="title three">Fotógrafo e Videomaker</span>
+            <span className="title three">Fotógrafo</span>
             <p>
               <strong className="title three">
                 Fotografia Sensível - Captar a essência de cada um.
